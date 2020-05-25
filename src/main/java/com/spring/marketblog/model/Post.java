@@ -78,4 +78,7 @@ public class Post {
     public void setTexto(String texto) {
         Texto = texto;
     }
+
+    public void setAutor(String docomo) {
+    }
 }
