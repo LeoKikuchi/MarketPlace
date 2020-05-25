@@ -1,4 +1,7 @@
 package com.spring.marketblog.repository;
 
-public interface MarketblogRepository {
+import com.spring.marketblog.model.Post;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MarketblogRepository extends JpaRepository<Post, Long> {
 }
